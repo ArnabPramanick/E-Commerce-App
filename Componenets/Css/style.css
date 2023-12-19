@@ -1,0 +1,30 @@
+/* Custom CSS for stylish card design */
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Background color for card body */
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+img {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}

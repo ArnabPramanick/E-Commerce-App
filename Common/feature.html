@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Featured Products</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <style>
+    /* Add some custom CSS */
+    .featured-products {
+      background-color: #1d4d7e;
+      padding: 50px 0;
+    }
+
+    /* Style the cards */
+    .product-card {
+      border: 1px solid #dee2e6;
+      border-radius: 15px;
+    }
+
+    /* Style the images */
+    .img-size {
+      height: 300px;
+      object-fit: cover;
+      object-position: top;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid bg-body-secondary">
+    <h2 class="text-center">Featured Products</h2>
+    <div class="row featured-products">
+      <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item px-lg-5 px-md-2 active">
+            <div
+              class="d-flex justify-content-between justify-content-md-center row-cols-1 row-cols-md-2 row-cols-lg-4">
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://images.unsplash.com/photo-1605763240000-7e93b172d754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                    class="card-img-top img-size" alt="Yellow Dress" />
+                  <div class="card-body">
+                    <h5 class="card-title">Yellow Dress</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://images.unsplash.com/photo-1605763240000-7e93b172d754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                    class="card-img-top img-size" alt="Yellow Dress" />
+                  <div class="card-body">
+                    <h5 class="card-title">Yellow Dress</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                    class="card-img-top img-size" alt="Jeans Pant" />
+                  <div class="card-body">
+                    <h5 class="card-title">Jeans Pant</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                    class="card-img-top img-size" alt="Jeans Pant" />
+                  <div class="card-body">
+                    <h5 class="card-title">Jeans Pant</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item px-lg-5 px-md-2">
+            <div
+              class="d-flex justify-content-between justify-content-md-center row-cols-1 row-cols-md-2 row-cols-lg-4">
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img src="https://www.topofstyle.com/blog/wp-content/uploads/2020/02/mini-skirt.jpg"
+                    class="card-img-top img-size" alt="Mini Skirts" />
+                  <div class="card-body">
+                    <h5 class="card-title">Mini Skirts</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img src="https://www.topofstyle.com/blog/wp-content/uploads/2020/02/mini-skirt.jpg"
+                    class="card-img-top img-size" alt="Mini Skirts" />
+                  <div class="card-body">
+                    <h5 class="card-title">Mini Skirts</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://i5.walmartimages.com/asr/c94a4c81-bb55-497c-b853-3f8427c6ef31.8910f1d1f06d83f7aebb607cadb4feea.jpeg"
+                    class="card-img-top img-size" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Classic Pants</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://i5.walmartimages.com/asr/c94a4c81-bb55-497c-b853-3f8427c6ef31.8910f1d1f06d83f7aebb607cadb4feea.jpeg"
+                    class="card-img-top img-size" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Classic Pants</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Slide -->
+          <div class="carousel-item px-lg-5 px-md-2">
+            <div
+              class="d-flex justify-content-between justify-content-md-center row-cols-1 row-cols-md-2 row-cols-lg-4">
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://imgs.comicalshirt.com/ebay_imgs/SDL/COLOR_PRODUCT_IMAGE/DT1100_black_model_front_042014.jpg"
+                    class="card-img-top img-size" alt="Black Hoodie" />
+                  <div class="card-body">
+                    <h5 class="card-title">Black Hoodie</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://imgs.comicalshirt.com/ebay_imgs/SDL/COLOR_PRODUCT_IMAGE/DT1100_black_model_front_042014.jpg"
+                    class="card-img-top img-size" alt="Black Hoodie" />
+                  <div class="card-body">
+                    <h5 class="card-title">Black Hoodie</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://i5.walmartimages.com/asr/c220b24c-f082-4637-80d1-a59a843b80bf.a6c2a3c7c1d2626cb2496fa9ff6b6f33.jpeg"
+                    class="card-img-top img-size" alt="Short Sleeve Linen Shirts" />
+                  <div class="card-body">
+                    <h5 class="card-title">Short Sleeve Linen Shirts</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card p-3 mx-md-2">
+                <!-- Card content for the product -->
+                <div class="card">
+                  <img
+                    src="https://i5.walmartimages.com/asr/c220b24c-f082-4637-80d1-a59a843b80bf.a6c2a3c7c1d2626cb2496fa9ff6b6f33.jpeg"
+                    class="card-img-top img-size" alt="Short Sleeve Linen Shirts" />
+                  <div class="card-body">
+                    <h5 class="card-title">Short Sleeve Linen Shirts</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-around mb-5">
+                    <h3>$20</h3>
+                    <button type="button" href="#" class="btn btn-primary">
+                      <i class="fa fa-shopping-cart"></i> Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#featuredCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

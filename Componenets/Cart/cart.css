@@ -1,0 +1,103 @@
+/* Base styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom styles for desktop screens */
+@media (min-width: 992px) {
+    .cart-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .product-list {
+        flex: 2;
+    }
+
+    .summary {
+        flex: 1;
+        background-color: #f8f9fa;
+        padding: 20px;
+        border: 1px solid #dee2e6;
+    }
+}
+
+/* Custom styles for tablet screens */
+@media (max-width: 991px) {
+    .cart-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .summary {
+        margin-top: 20px;
+    }
+}
+
+/* Custom styles for mobile screens */
+@media (max-width: 767px) {
+    .product-quantity {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-quantity button {
+        margin: 5px 0;
+        font-size: small;
+    }
+}
+
+/* Styles for the individual product (common for all devices) */
+.product {
+    display: flex;
+    border: 1px solid #dee2e6;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.product-image {
+    margin-right: 20px;
+}
+
+img {
+    height: 170px;
+}
+
+.product-details {
+    flex: 2;
+}
+
+/* Styles for the checkout summary (common for all devices) */
+.summary-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.summary-card-header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary-total {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.checkout-button {
+    margin-top: 20px;
+}
+
+input {
+    width: 53px;
+}
